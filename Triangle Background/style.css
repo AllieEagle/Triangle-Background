@@ -1,0 +1,15 @@
+body{
+    margin: auto;
+}
+
+div{
+    width: 100vw;
+    height: 100vh;
+}
+
+.traingle:after{
+    content: '';
+    position: absolute;
+    border-top: 100vh solid #63B7B7;
+    border-right: 100vw solid orange;
+}
